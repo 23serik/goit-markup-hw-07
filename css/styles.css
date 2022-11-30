@@ -45,12 +45,12 @@
 /* /* reset
 
 /* Стили для обнуления верхних отступов у элементов  */
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
-h6,
+h6, */
 /* p {
   margin: 0;
 } */ 
@@ -953,4 +953,4 @@ address {
 .modal__form-btn:hover,
 .modal__form-btn:focus {
   background-color: #188ce8;
-} */
+}  
