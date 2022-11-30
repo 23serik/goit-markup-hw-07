@@ -53,7 +53,7 @@ h5,
 h6, */
 /* p {
   margin: 0;
-} */ 
+} */
 
 /* Класс для обнуления базовых свойств у списков (ul) 
 .list {
@@ -67,7 +67,6 @@ h6, */
   text-decoration: none;
   color: inherit;
 }  */
-
 
 /* Свойства для корректного отображения картинок  */
 /* img {
@@ -374,9 +373,9 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
 /* } */
-/* .team__position { */ 
-  /* padding-bottom: 30px; */
-  /* font-size: 16px;
+/* .team__position { */
+/* padding-bottom: 30px; */
+/* font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -746,14 +745,14 @@ address {
   background-color: rgba(0, 0, 0, 0.2);
 
   transition: opacity 200ms linear, visibility 200ms linear;
-}
+} */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
-.modal {
+} */
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -767,14 +766,14 @@ address {
   border-radius: 4px;
 
   transition: transform 400ms, opacity 400ms;
-}
+} */
 
 .backdrop.is-hidden .modal {
   opacity: 0;
   transform: translateX(-50%) translateY(-70%);
 }
 
-.modal__btn {
+/* .modal__btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -806,9 +805,9 @@ address {
 .modal__icon:hover,
 .modal__icon:focus {
   fill: var(--accent-color);
-}
+} */
 
-.modal__label {
+/* .modal__label {
   display: block;
   text-align: center;
   margin-bottom: 12px;
@@ -819,11 +818,11 @@ address {
   color: var(--primary-color-text);
 }
 
-.modal__form-group {
+ .modal__form-group {
   margin-bottom: 20px;
-}
+}  */
 
-.modal__form-label {
+/* .modal__form-label {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
@@ -837,9 +836,9 @@ address {
 .modal__form-wrapper {
   position: relative;
   margin-bottom: 10px;
-}
+} */
 
-.modal__form-field {
+/* .modal__form-field {
   width: 100%;
   height: 40px;
   padding-left: 42px;
@@ -850,8 +849,9 @@ address {
   outline-offset: -1px;
 
   transition: outline-color var(--duration) var(--timing-function);
-}
+} */
 
+/* 
 .modal__form-field:focus {
   outline-color: var(--accent-color);
 }
@@ -864,8 +864,8 @@ address {
   transform: translateY(-50%);
 
   transition: fill var(--duration) var(--timing-function);
-}
-
+} */
+/* 
 .modal__form-field:focus + .modal__form-icons {
   fill: var(--accent-color);
 }
@@ -948,9 +948,9 @@ address {
   border-color: transparent;
   border-radius: 4px;
   transition: background-color var(--duration) var(--timing-function);
-}
-
+} */
+/* 
 .modal__form-btn:hover,
 .modal__form-btn:focus {
   background-color: #188ce8;
-}  
+}   */
