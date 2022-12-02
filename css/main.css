@@ -30,8 +30,10 @@
   margin: -1px;
 }
 
-.filter, .join__list, .footer__link, .cliens__list, .socials, .team__list, .section__list, .about__list, .contacts, .nav__list {
+.card, .filter, .join__list, .footer__link, .cliens__list, .socials, .team__list, .section__list, .about__list, .contacts, .nav__list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .join__link, .footer__contact, .footer__nav, .cliens__link, .contacts__data, .nav__link, .logo {
@@ -58,14 +60,14 @@ p {
 }
 
 /* Класс для обнуления базовых свойств у списков (ul)  */
-.list {
+list {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
 /* Класс для обнуления базовых свойств у ссылок  */
-.link {
+link {
   text-decoration: none;
   color: inherit;
 }
@@ -128,18 +130,15 @@ address {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0;
+  margin: 0;
 }
-
 .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   gap: 50px;
 }
-
 .nav__link {
   display: inline-block;
   padding-top: 32px;
@@ -152,13 +151,9 @@ address {
   -webkit-transition: color var(--duration) var(--timing-function);
   transition: color var(--duration) var(--timing-function);
 }
-
-.nav__link:hover,
-.nav__link:focus,
-.nav__link--current {
+.nav__link:hover, .nav__link:focus, .nav__link--current {
   color: var(--accent-color);
 }
-
 .nav__link--current::after {
   content: "";
   display: block;

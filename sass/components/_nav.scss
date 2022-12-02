@@ -1,16 +1,18 @@
 .nav {
     display: flex;
     align-items: center;
-}
+    padding: 0;
+    margin: 0;
 
-.nav__list {
-    @extend %list;
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
 
-.nav__link {
+&__list {
+        @extend %list;
+        display: flex;
+        gap: 50px;
+    }
+
+
+&__link {
     @extend %link;
     display: inline-block;
     padding-top: 32px;
@@ -25,13 +27,13 @@
     transition: color var(--duration) var(--timing-function);
 }
 
-.nav__link:hover,
-.nav__link:focus,
-.nav__link--current {
+&__link:hover,
+&__link:focus,
+&__link--current {
     color: var(--accent-color);
 }
 
-.nav__link--current::after {
+&__link--current::after {
     content: "";
     display: block;
 
@@ -42,4 +44,5 @@
 
     position: absolute;
     bottom: 0px;
+}
 }

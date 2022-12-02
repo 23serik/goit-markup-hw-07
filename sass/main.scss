@@ -10,22 +10,23 @@
 
 // components
 @import './components/container';
-@import './components/header';
 @import './components/logo';
 @import './components/nav';
 @import './components/contact';
-@import './components/hero';
 @import './components/button';
-@import './components/about';
 @import './components/icon-box';
- @import './components/section';
- @import './components/team';
- @import './components/socials';
- @import './components/cliens';
- @import './components/footer';
- @import './components/join';
-  @import './components/subscribe';
-  @import './components/filter-btn';
-  @import './components/card-set';
-  @import './components/modal';
+@import './components/section';
+@import './components/socials';
+@import './components/join';
+@import './components/subscribe';
+@import './components/modal';
 
+// layouts
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/about';
+@import './layouts/cliens';
+@import './layouts/team';
+@import './layouts/footer';
+@import './layouts/portfolio';
